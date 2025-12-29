@@ -1,0 +1,16 @@
+   54  git status
+   55  git checkout -b develop
+   56  git branch
+   57  touch develop_test.txt
+   58  git add . 
+   59  git commit -m "Add develop_test.txt"
+   60  echo "Develop branch file" >> develop_test.txt
+   61  git add .
+   62  git comiit -m "Update develop_test.txt"
+   63  git commit -m "Update develop_test.txt"
+   64  git status 
+   65  git checkout main
+   66  git branch
+   67  git merge develop
+   68  git log --oneline
+   69  ls
